@@ -1,0 +1,13 @@
+Source: pprzgcs
+Section: devel
+Priority: optional
+Maintainer: Fabien Bonneval <fabien.bonneval@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), cmake, git, libsqlite3-dev, libzip-dev, qtbase5-dev, libqt5svg5-dev, libqt5texttospeech5-dev, libproj-dev, mesa-common-dev, libglu1-mesa-dev
+Standards-Version: 4.0.0
+Homepage: https://fabien-b.github.io/PprzGCS/
+
+Package: pprzgcs
+Architecture: amd64
+Depends: libzip5, libproj15, libqt5xml5, libqt5network5, libqt5svg5, libqt5texttospeech5, libqt5widgets5, libqt5gui5, libqt5core5a
+Description: Ground Control Station for PaparazziUAV
+
