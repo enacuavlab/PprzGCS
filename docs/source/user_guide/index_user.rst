@@ -13,4 +13,5 @@ Learn everything here!
     layout
     widgets
     map_tile_sources
+    keyboard_shortcuts
     
